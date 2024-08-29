@@ -332,9 +332,11 @@ public class CommonMethods extends BaseClass {
 		element.click();
 	}
 	
-	
-	public static void imTired() {
-		System.out.println("Im getting tired :)");
+	public void newMethod()
+	{
+		System.out.println("Oguz, its too early to get tired!!!!");
+		System.out.println("you're a young man!!!");
+
 	}
 	
 }
