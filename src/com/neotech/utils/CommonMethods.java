@@ -310,4 +310,30 @@ public class CommonMethods extends BaseClass {
 	*/
 	
 	
+	/**
+	 * This method will wait for the element to be clickable.
+	 * 
+	 * @param element
+	 */
+	public static WebElement waitForClickability1(WebElement element)
+	{
+		return getWaitObject().until(ExpectedConditions.elementToBeClickable(element));
+	}
+	
+	
+	/**
+	 * This method will wait for clickability and then click on the passed element.
+	 * 
+	 * @param element
+	 */
+	public static void click1(WebElement element)
+	{
+		waitForClickability(element);
+		element.click();
+	}
+	
+	
+	
+	
+	
 }
