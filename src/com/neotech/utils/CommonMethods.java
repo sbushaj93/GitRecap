@@ -15,6 +15,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CommonMethods extends BaseClass {
 
+	
+	
+	public static void newMethod()
+	{
+		System.out.println("New method!!!");
+	}
+	
 	/**
 	 * This method clears a text box and send the text parameter to it.
 	 * 
