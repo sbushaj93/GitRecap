@@ -333,4 +333,8 @@ public class CommonMethods extends BaseClass {
 	}
 	
 	
+	public static void imTired() {
+		System.out.println("Im getting tired :)");
+	}
+	
 }
