@@ -1,6 +1,11 @@
 package DemoOguz;
 
-public class DemoOguz {
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.neotech.utils.CommonMethods;
+
+public class DemoOguz extends CommonMethods{
 	
 	//hello Sabah :D
 
@@ -15,6 +20,9 @@ public class DemoOguz {
 	
 
 	public static void main(String[] args) {
+	 
+		WebElement element = driver.findElement(By.id("Test"));
+		element.click();
 		
 	}
 

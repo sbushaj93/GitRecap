@@ -310,4 +310,9 @@ public class CommonMethods extends BaseClass {
 	*/
 	
 	
+	
+	public static void clickOguz() {
+		//this is a test
+	}
+	
 }
